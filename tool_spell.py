@@ -12,10 +12,10 @@ def typewriter(text, delay=0.00):
     print()
 
 def show_menu():
-    typewriter("\n===== HACK CASIO =====", 0.01)
+    typewriter("\n===== THIEN CASIO =====", 0.01)
     time.sleep(0.5)
     typewriter("Tool Spell on CASIO fx-580VN X", 0.01)
-    typewriter("- © 2026 HACK CASIO -", 0.01)
+    typewriter("- © 2026 THIEN CASIO -", 0.01)
     typewriter("1. Note", 0.02)
     typewriter("2. Contact", 0.02)
     typewriter("3. Spell", 0.02)
@@ -23,14 +23,11 @@ def show_menu():
 def show_notes():
     typewriter("\n===== Note =====", 0.02)
     notes = [
-    "1. Tool hoàn toàn miễn phí, nghiêm cấm buôn bán hoặc sử dụng để trục lợi.",
-    "2. Không được chỉnh sửa hoặc xóa tên tác giả.",
-    "3. Nghiêm cấm sao chép hoặc phát tán trái phép dưới mọi hình thức.",
-    "4. Tool chỉ hỗ trợ spell tối đa 17 byte và ký tự.",
-    "5. Chỉ hỗ trợ CASIO fx-580VN X, các dòng máy khác có thể không hoạt động.",
-    "6. Không nên phụ thuộc hoàn toàn vào tool.",
-    "7. Tool có thể phát sinh lỗi trong quá trình sử dụng.",
-    "8. Nếu gặp lỗi, vui lòng liên hệ để được hỗ trợ."
+    "1. Tool chỉ hỗ trợ spell tối đa 17 byte và ký tự.",
+    "2. Chỉ hỗ trợ CASIO fx-580VN X, các dòng máy khác có thể không hoạt động.",
+    "3. Không nên phụ thuộc hoàn toàn vào tool.",
+    "4. Tool có thể phát sinh lỗi trong quá trình sử dụng.",
+    "5. Nếu gặp lỗi, vui lòng liên hệ để được hỗ trợ."
     ]
     for note in notes:
         typewriter(f"  • {note}", 0.00)
@@ -38,8 +35,7 @@ def show_notes():
 def show_contacts():
     typewriter("\n===== Contact =====", 0.02)
     contacts = [
-        "Discord: Phong2k11®(phong2k11_4).",
-        "Discord: C++ My Life(@kiet130218_80627) or Kiet1302181(@kiet1302181)."
+        "TIKTOK: Dthin"
     ]
     for info in contacts:
         typewriter(f"  • {info}", 0.02)
@@ -326,7 +322,7 @@ def spell_input():
                     time.sleep(0.01)
     typewriter(f"[{17-b} số bất kì] [shift] [(] [2] [x] [calc] [=]")
     typewriter("--- End ---", 0.01)
-    typewriter("- Developed by Phong2k11® & AxesMC -", 0.01)
+    typewriter("- Developed by Thiencuto -", 0.01)
 
 def main():
     show_menu()  # Hiện menu
